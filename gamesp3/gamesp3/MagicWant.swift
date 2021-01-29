@@ -6,8 +6,12 @@
 //
 
 import Foundation
+
 class MagicWant : Weapon {
+    
+  // MARK: - Initializer
+    
     init () {
-        super.init(damage: 100 , type: "Magic" , name:"")
+        super.init(damage: 100)
     }
 }

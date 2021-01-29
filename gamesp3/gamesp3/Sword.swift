@@ -6,8 +6,12 @@
 //
 
 import Foundation
+
 class Sword : Weapon {
+    
+    // MARK: - Initializer
+    
     init () {
-        super.init(damage: 90, type: "Humans", name: "" )
+        super.init(damage: 90)
     }
 }

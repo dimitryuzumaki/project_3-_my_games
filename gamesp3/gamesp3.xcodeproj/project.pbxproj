@@ -10,6 +10,7 @@
 		390B75BC2583DAF700C69960 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390B75BB2583DAF700C69960 /* Game.swift */; };
 		396BB779257A9A5C008EDF9B /* BloodElf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396BB778257A9A5C008EDF9B /* BloodElf.swift */; };
 		396BB77C257A9B94008EDF9B /* Dagger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396BB77B257A9B94008EDF9B /* Dagger.swift */; };
+		397A2BD125AF920900FF0A94 /* Contant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397A2BD025AF920900FF0A94 /* Contant.swift */; };
 		397B75B7257E80A500AC5B86 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B75B6257E80A500AC5B86 /* Sword.swift */; };
 		397B75BA257E814900AC5B86 /* MagicWant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B75B9257E814900AC5B86 /* MagicWant.swift */; };
 		397B75BD257E824400AC5B86 /* Skull.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397B75BC257E824400AC5B86 /* Skull.swift */; };
@@ -39,6 +40,7 @@
 		390B75BB2583DAF700C69960 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		396BB778257A9A5C008EDF9B /* BloodElf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodElf.swift; sourceTree = "<group>"; };
 		396BB77B257A9B94008EDF9B /* Dagger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dagger.swift; sourceTree = "<group>"; };
+		397A2BD025AF920900FF0A94 /* Contant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contant.swift; sourceTree = "<group>"; };
 		397B75B6257E80A500AC5B86 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
 		397B75B9257E814900AC5B86 /* MagicWant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicWant.swift; sourceTree = "<group>"; };
 		397B75BC257E824400AC5B86 /* Skull.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skull.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				39CA26562566A7D200E8CD2C /* main.swift */,
 				39CA26622566A80900E8CD2C /* Weapon.swift */,
 				39CA26652566A9E400E8CD2C /* Character.swift */,
+				397A2BD025AF920900FF0A94 /* Contant.swift */,
 				39CA26682566A9F800E8CD2C /* Player.swift */,
 				39DC4DAB25A7AF0F0011C715 /* TreasureChest.swift */,
 				390B75BB2583DAF700C69960 /* Game.swift */,
@@ -128,7 +131,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1220;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					39CA26522566A7D200E8CD2C = {
 						CreatedOnToolsVersion = 12.2;
@@ -171,6 +174,7 @@
 				397B75C3257E859100AC5B86 /* Thief.swift in Sources */,
 				39CA26632566A80900E8CD2C /* Weapon.swift in Sources */,
 				396BB779257A9A5C008EDF9B /* BloodElf.swift in Sources */,
+				397A2BD125AF920900FF0A94 /* Contant.swift in Sources */,
 				397B75CA257E872A00AC5B86 /* Warlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +300,7 @@
 		39CA265B2566A7D200E8CD2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -305,6 +310,7 @@
 		39CA265C2566A7D200E8CD2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
