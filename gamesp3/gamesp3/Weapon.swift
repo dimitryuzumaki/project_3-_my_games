@@ -4,19 +4,17 @@
 //
 //  Created by Dimitry Aumont on 19/11/2020.
 //
-
 import Foundation
-class Weapon {
-    let damage : Int
-    let type : String
-    let name : String
- 
-    init(damage: Int, type: String, name: String) {
-        self.damage = damage
-        self.type = type
-        self.name = name 
-        
-    }
-    
-}
 
+class Weapon {
+    
+    // MARK: - Properties
+    
+    let damage : Int
+    
+    // MARK: - Initializer
+    
+    init(damage: Int) {
+        self.damage = damage
+    }
+}

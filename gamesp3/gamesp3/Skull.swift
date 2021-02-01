@@ -6,8 +6,12 @@
 //
 
 import Foundation
+
 class Skull : Weapon {
+    
+    // MARK: - Initializer
+    
     init () {
-        super.init(damage: 50, type: "Warlock" , name: "")
+        super.init(damage: 50)
     }
 }

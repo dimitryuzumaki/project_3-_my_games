@@ -6,9 +6,12 @@
 //
 
 import Foundation
+
 class Dagger: Weapon {
-    init() {
-        super.init(damage: 70, type: "Elf", name: "")
-    }
     
+    // MARK: - Initializer
+    
+    init() {
+        super.init(damage: 70)
+    }
 }
